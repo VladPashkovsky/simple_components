@@ -7,7 +7,7 @@ const Layout = () => {
       <header>
         <CustomLink to='/'>Home</CustomLink>
         <CustomLink to='/counter'>Counter</CustomLink>
-        <CustomLink to='/about'>About</CustomLink>
+        <CustomLink to='/modal'>Modal</CustomLink>
       </header>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Outlet />
